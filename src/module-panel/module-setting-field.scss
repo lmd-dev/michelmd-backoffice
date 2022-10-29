@@ -1,0 +1,36 @@
+.module-setting-field
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+
+    & > label {
+        width: 150px;
+        margin-right: 10px;
+        flex-shrink: 0;
+    }
+
+    & > a {
+        width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .tags {
+        display: flex;
+
+        & > .tag {
+            padding: 3px 10px 6px 10px;
+            box-sizing: border-box;
+            line-height: 100%;
+            box-sizing: border-box;
+            background-color: var(--primary);
+            color: var(--text-primary);
+            border-radius: 5px;
+            margin-right: 5px;;
+        } 
+    }
+}
